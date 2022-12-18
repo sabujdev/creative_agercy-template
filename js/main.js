@@ -25,10 +25,10 @@ $(document).ready(function(){
   $('.brand-active').slick({
     infinite: true,
     autoplay:true,
-    autoplaySpeed:3000,
+    autoplaySpeed:2000,
     dots:false,
     arrows:false,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1
   });
 

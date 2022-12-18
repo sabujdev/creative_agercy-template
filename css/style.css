@@ -424,6 +424,10 @@ header {
 .testimonial_active .slick-dots li.slick-active button {
   background: #595959;
 }
+/* brand area  */
+.single_brand {
+  width: 200px;
+}
 
 /* footer area  */
 .footer_widget h3 {
@@ -448,14 +452,21 @@ header {
 ul.footer_link {
   overflow: hidden;
 }
-.footer_link li {
+ul.footer_link li {
   width: 50%;
   float: left;
 }
-.footer_link li a {
+ul.footer_link li a {
   color: #595955;
   line-height: 36px;
   overflow: hidden;
+}
+.footer_widget ul.useful_link li a::before {
+  content: ">";
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin-right: 5px;
 }
 .news-title h4 a {
   font-size: 17px;
@@ -474,6 +485,27 @@ ul.footer_link {
   margin-bottom: 30px;
   width: 100%;
 }
+.footer_link .blog:last-child {
+  margin-bottom: 0;
+}
 .news-title {
   padding-left: 15px;
+}
+/* footer copyright area  */
+.copyright_border {
+  border-top: 1px solid #777;
+}
+.copyright_text p {
+  color: #777;
+  margin: 0;
+}
+.footer_menu {
+  text-align: right;
+}
+.footer_menu ul li a {
+  color: #777;
+}
+.footer_menu ul li {
+  display: inline-block;
+  margin-left: 15px;
 }
