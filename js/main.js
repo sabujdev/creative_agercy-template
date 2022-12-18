@@ -1,5 +1,14 @@
 
 $(document).ready(function(){
+
+
+// mean menu 
+$('nav#mobile_menu_active').meanmenu({
+    meanScreenWidth: "991",
+    meanMenuContainer: '.mobile_menu',
+});
+
+
   // Slider area
     $('.slider-active').slick({
         infinite: true,

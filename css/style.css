@@ -167,6 +167,9 @@ header {
   left: 0;
   bottom: 0;
 }
+.about-img img {
+  width: 100%;
+}
 .about_text p {
   margin-bottom: 40px;
 }
