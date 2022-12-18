@@ -445,6 +445,9 @@ header {
   margin-right: 15px;
   color: #fff;
 }
+ul.footer_link {
+  overflow: hidden;
+}
 .footer_link li {
   width: 50%;
   float: left;
@@ -452,4 +455,25 @@ header {
 .footer_link li a {
   color: #595955;
   line-height: 36px;
+  overflow: hidden;
+}
+.news-title h4 a {
+  font-size: 17px;
+  line-height: 30px;
+  color: #595959;
+}
+.news-title h4 {
+  line-height: 1;
+}
+.news-title span {
+  font-size: 15px;
+  color: #777;
+}
+.footer_link .blog {
+  display: flex;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.news-title {
+  padding-left: 15px;
 }
