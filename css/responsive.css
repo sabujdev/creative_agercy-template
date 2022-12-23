@@ -11,9 +11,7 @@
   .main_menu ul {
     justify-content: center;
   }
-  .hire-btn a {
-    padding: 14px 44px;
-  }
+
   /* feater area */
   .feature_area {
     margin-top: 70px;
@@ -41,6 +39,32 @@
 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+  .logo {
+    padding-top: 12px;
+  }
+  /* feater area */
+  .feature_area {
+    margin-top: 70px;
+    padding-top: 0;
+  }
+  /* slider */
+  .slider-inner h2 {
+    font-size: 36px;
+  }
+  .about_text {
+    margin: 0px 60px;
+  }
+  .about-img {
+    margin-top: 50px;
+  }
+  .subscribe_from input {
+    width: 24%;
+  }
+
+  .pricing_item {
+    width: 80%;
+    padding: 30px;
+  }
 }
 
 /* small mobile :320px. */

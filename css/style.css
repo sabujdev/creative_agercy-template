@@ -68,7 +68,7 @@ header {
   align-items: center;
 }
 .main_menu ul li {
-  margin-left: 50px;
+  margin-left: 48px;
   display: flex;
 }
 .main_menu ul li a {
@@ -80,11 +80,12 @@ header {
   color: #343434;
   line-height: 1;
 }
+
 .hire-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 24px 0;
+  margin: 40px 0;
 }
 .hire-btn a {
   font-family: "Poppins", sans-serif;
@@ -128,10 +129,10 @@ header {
 }
 .single_feature {
   padding: 50px 36px;
-  border-left: 1px solid #6a74fc;
+  border-bottom: 1px solid #ddd;
 }
-.single_feature :last-child {
-  border-left: 0;
+.theme-bg .col-xl-4:last-child .single_feature {
+  border-bottom: 0;
 }
 .single_feature i {
   font-size: 30px;
@@ -212,6 +213,7 @@ header {
   -moz-transition: 0.3s ease-in;
   -ms-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
+  padding: 70px 5px 70px 5px;
 }
 .service_warpper:hover {
   background: #222;
