@@ -100,6 +100,8 @@ header {
 /* slider area  */
 .single-slider {
   height: 100vh;
+  background-size: cover;
+  background-position: center center;
 }
 .slider-icon {
   margin-bottom: 15px;
@@ -395,6 +397,10 @@ header {
   margin-bottom: 30px;
 }
 /* Testimonial */
+.testimonial_area {
+  background-size: cover;
+  background-position: center center;
+}
 .testimonial_items {
   background-color: rgb(255, 255, 255, 0.9);
   padding: 60px 136px;
@@ -500,12 +506,16 @@ ul.footer_link li a {
 .copyright_border {
   border-top: 1px solid #777;
 }
+.copyright_text {
+  margin-bottom: 20px;
+  text-align: center;
+}
 .copyright_text p {
   color: #777;
   margin: 0;
 }
 .footer_menu {
-  text-align: right;
+  text-align: center;
 }
 .footer_menu ul li a {
   color: #777;

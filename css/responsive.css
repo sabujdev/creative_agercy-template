@@ -69,6 +69,28 @@
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
+  /* feater area */
+  .feature_area {
+    margin-top: 70px;
+    padding-top: 0;
+  }
+  .slider-inner h2 {
+    font-size: 30px;
+  }
+  .about-img {
+    margin-top: 50px;
+  }
+  .subscribe_from input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .pricing_item {
+    width: 100%;
+    padding: 30px;
+  }
+  .testimonial_items {
+    padding: 60px 10px;
+  }
 }
 
 /* Large Mobile :480px. */
